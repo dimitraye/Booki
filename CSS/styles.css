@@ -1,0 +1,47 @@
+/*-------------------------BARRE DE NAVIGATION--------------------------------*/
+
+
+#logo {
+    width: 90px;
+    height: 42px;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    border: 1px solid black;
+    
+}
+
+.headerElement:nth-child(1){
+    background-color: white;
+    width: 200px;
+    border: 1px solid black;
+}
+
+.headerElement:nth-child(2){
+    background-color: white;
+    width: 900px;
+}
+
+.headerElement:nth-child(3){
+    background-color: white;
+    width: 150px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+
+.headerElement:nth-child(4){
+    background-color: white;
+    width: 150px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+/*-------------------------HEBERGEMENTS A MARSEILLE--------------------------------*/
+
+/*-------------------------POPULAIRES--------------------------------*/

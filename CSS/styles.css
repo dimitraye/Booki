@@ -41,6 +41,18 @@
     text-align: center;
     border: 1px solid black;
 }
+/*-------------------------bonjourRechercheFiltre--------------------------------*/
+.bonjourRechercheFiltre {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+
+}
+
+.conitnerFiltres {
+    display: flex;
+    flex-direction: row;
+}
 
 /*-------------------------HEBERGEMENTS A MARSEILLE--------------------------------*/
 

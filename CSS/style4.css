@@ -173,9 +173,15 @@ nav a
     border-radius: 10px 0 0 10px;
 }
 
+.buttonSearch{
+    border: 2px solid black;
+}
+
 .paddingSearch{
     padding-left: 20px;
     margin-bottom:   10px  ;
+    padding-top: 5px;
+    
 }
 
 .recherche{

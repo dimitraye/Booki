@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="CSS/style3.css">
-    <link rel="stylesheet" href="CSS/petit_style.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="CSS/petit_style.css">
     <link rel="stylesheet" href="CSS/normalise.css">
+
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,10 +23,8 @@
                 <header>
                     <!--Logo (image-lien) / Lien "Hébergements" / Lien "Activités"-->
                     <!--CSS ->  display : flex   + flex-wrap : wrap-->
-                    <div>
-                        <div id="logo">
-                            <a href="Index3.html"><img src="Images/logo/Booki.png"></a>
-                        </div>
+                    <div id="logo">
+                        <a href="Index4.html"><img src="Images/logo/Booki.png"></a>
                     </div>
                     <div class="voidDiv">
     
@@ -55,7 +55,10 @@
                             <div>
                                 <input class="recherche flexCenter bordureNone paddingSearch" type="search" placeholder="Marseille , France">
                             </div>
-                            <div class="backBleu flexCenter buttonSearch paddingSearch"><span>Rechercher</span></div>
+                            <div class="backBleu flexCenter buttonSearch paddingSearch">
+                                <span id="searchNormalSize">Rechercher</span>
+                                <span id="searchLittleSize"><i class="fa-solid fa-magnifying-glass"></i></span>
+                            </div>
                         </div>
     
     
@@ -100,8 +103,6 @@
                             </span>
                             Plus de 500 logements  sont disponibles dans cette ville
                         </div>
-
-
                     </div>
                 </section>
             </div>

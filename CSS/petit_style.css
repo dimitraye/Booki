@@ -1,6 +1,28 @@
+/*------------P------------*/
+/*p{
+    background-color: brown;
+}
+*/
 
+/*------------BlocPage------------*/
+.blocPage{
+    border: 1px solid black;
+}
+
+/*------------globalSansFooter------------*/
+.globalSansFooter{
+    border: 1px solid black;
+}
 
 /*------------ENTETE------------*/
-
-/*------------ENTETE------------*/
-    
+.entete{
+    border: 1px solid black;
+}
+/*------------Logo------------*/
+#logo{
+    border: 1px solid black;
+}
+/*------------Lien------------*/
+.liens{
+    border: 1px solid black;
+}

@@ -79,12 +79,10 @@ header{
 }
 
 .presentation section{
-    border: 1px solid brown;
-
+    
 }
 
 .presentation navBar{
-    border: 1px solid purple;
 
 }
 
@@ -141,35 +139,39 @@ header{
 
 
 .filters{
-    border: 1px solid black;
     display: flex;
 }
 
 .filterList{
-    border: 1px solid black;
+    border: 2px solid black;
+    justify-content: space-between;
 
 }
 
 .textFilter{
     width: 100%;
-    border: 1px solid black;
 }
 
 .filter{
-    border: 1px solid black;
     margin: 0;
     margin-left: 10px;
     margin-right: 0;
+    margin-bottom: 10px;
 
 }
 
 .filter span{
-    font-size: 12px;
+    font-size: 10px;
 }
 
-.divInfoIcon{
-    border: 1px solid black;
+.divInfoIcon span{
 }
+
+.divInfoIcon {
+    font-size: 15px;
+}
+
+
 /*---------------------------------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------------------------------*/

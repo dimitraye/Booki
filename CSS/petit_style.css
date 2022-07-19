@@ -179,26 +179,67 @@ header{
 
 .hebergementPopulaire{
     border: 1px solid black;
-    display: block;
+    display: flex;
     flex-direction: column-reverse;
-}
-
-.hebergements{
-    border: 1px solid red;
-}
-
-.cardHebergement{
-    border: 1px solid blue;
-    display: block;
+    width: auto;
+    height: 2455px;
+    margin-bottom: 10px;
 }
 
 .populaires{
-    border: 1px solid red;
+    height: 660px;
+    margin-left: 0;
 }
 
 .cardPopulaire{
-    border: 1px solid blue;
+    height: 170px;
+    margin-top: 20px;
+    margin-left: -22px;
+    width: auto;
+    margin-right: -23px;
+    font-size: 17px;
+
 }
+
+.hebergements{
+    height: 150px;
+    margin-right: 0;
+}
+
+.cardHebergementList{
+    border: 1px solid blue;
+    display: block;
+    height: 1550px;
+    margin-left: -12px;
+    margin-right: -12px;
+
+}
+
+
+.cardHebergement {
+    height: 230px;
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid green;
+
+}
+
+.cardHebergement img{
+    margin-right: 0%;
+}
+
+.hebergements{
+    border: 1px solid purple;
+    height: 2500px ;
+}
+    
+.hebergements a{
+    margin-left: -10px;
+   
+}
+
+
 
 
 
@@ -207,3 +248,31 @@ header{
 /*---------------------------------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------------------------------*/
 /*---------------------------------------ACTIVITES------------------------------------------------------------*/
+
+.activites{
+    border: 1px solid black;
+    display: block;
+}
+
+.grandeImage{
+    border: 1px solid blue;
+    height: 230px;
+}
+
+.cardActivite{
+
+}
+
+.imgActivite{
+
+}
+
+.cardActiviteInfo{
+
+}
+
+/*---------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------*/
+/*---------------------------------------FOOTER------------------------------------------------------------*/

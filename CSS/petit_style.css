@@ -79,14 +79,6 @@ header{
 
 }
 
-.presentation section{
-    
-}
-
-.presentation navBar{
-
-}
-
 #navBar{
     display: block;
     padding: 15px;
@@ -100,8 +92,6 @@ header{
     font-size: 14px;
 }
 
-.search{
-}
 
 .recherche{
     height: 50px;
@@ -164,8 +154,7 @@ header{
     font-size: 12px;
 }
 
-.divInfoIcon span{
-}
+
 
 .divInfoIcon {
     font-size: 15px;

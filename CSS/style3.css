@@ -149,8 +149,9 @@ nav a
     padding-top: 20px;
 }
 
-
-
+#searchLittleSize{
+    display: none;
+}
 /*Presentation*/
 /*-------------------------Navigation--------------------------------*/
 
@@ -375,7 +376,7 @@ nav a
     height: 135px;
 }
 
-.hebergements h3{
+.hebergementsTitre h3{
     
     margin-left: 10px;
 } 

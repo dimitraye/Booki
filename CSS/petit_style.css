@@ -13,7 +13,7 @@
 /*------------globalSansFooter------------*/
 .globalSansFooter{
     border: 1px solid red;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 /*---------------------------------------ENTÊTE------------------------------------------------------------*/
 /*------------ENTETE------------*/
@@ -382,11 +382,12 @@ header{
 
 footer{
     border: 1px solid black;
+    background-color: f2f2f2;
 }
 
 .divFooter{
-    border:  1px solid red;
     display: block;
+    margin-top: 0;
 }
 
 .divFooter h4{
@@ -398,25 +399,34 @@ footer{
     margin-bottom: 10px;
 }
 .linksA{
-    border: 1px solid green;
-    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     width: 300px;
+}
 
+.linksA h4{
+    margin-top: 0;
+    margin-bottom: 20px;
 }
 
 .linksB{
-    border: 1px solid green;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     margin-left: 50px;
     width: 300px;
+}
 
+.linksB h4{
+    margin-top: 0;
+    margin-bottom: 20px;
 }
 
 .linksC{
-    border: 1px solid green;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     margin-left: 50px;
-
     width: 300px;
+}
 
+.linksC h4{
+    margin-top: 0;
+    margin-bottom: 20px;
 }

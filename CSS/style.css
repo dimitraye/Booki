@@ -1,34 +1,36 @@
 /*GENERAL*/
-.blocPage{
+.blocPage {
     margin: auto;
     width: 100%;
 }
 
-p{
+p {
     font-family: 'Raleway', sans-serif;
 }
 
 
-h1.h2.h3.h4.h5{
+h1.h2.h3.h4.h5 {
     font-family: 'Raleway', sans-serif;
 }
-.clear{
+
+.clear {
     clear: both;
     margin-bottom: 25px;
-} 
+}
 
 .alignleft {
-	float: left;
-  padding-left: 3%;
+    float: left;
+    padding-left: 3%;
 }
+
 .alignright {
-	float: right;
-  padding-right: 3%;
+    float: right;
+    padding-right: 3%;
 }
 
 
 
-.flexCenter{
+.flexCenter {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,15 +48,15 @@ h1.h2.h3.h4.h5{
     align-items: center;
 }
 
-.backGris{
+.backGris {
     background-color: #f2f2f2;
 }
 
-.backBleu{
+.backBleu {
     background-color: #0065fc;
 }
 
-.flex{
+.flex {
     display: flex;
 }
 
@@ -73,31 +75,30 @@ h1.h2.h3.h4.h5{
 
 footer {
     background-color: #f2f2f2;
-  
+
 
 }
 
 
 
 /*ENTETE*/
- header{
+header {
     display: flex;
 }
-.voidDiv{
+
+.voidDiv {
     width: 75%;
 }
 
 
-#logo
-{
+#logo {
     display: flex;
     flex-direction: row;
     align-items: baseline;
-    
+
 }
 
-#logo img
-{
+#logo img {
     width: 90px;
     height: 42px;
 }
@@ -105,19 +106,16 @@ footer {
 
 /* Navigation */
 
-nav ul
-{
+nav ul {
     list-style-type: none;
     display: flex;
 }
 
-nav li
-{
+nav li {
     margin-right: 15px;
 }
 
-nav a
-{
+nav a {
     font-size: 1.3em;
     color: #181818;
     padding-bottom: 3px;
@@ -128,7 +126,7 @@ nav a
     color: #0065FC;
 }
 
-.linkHebergement:hover{
+.linkHebergement:hover {
     cursor: pointer;
     border-top: 3px solid #0065FC;
     border-color: #0065FC;
@@ -140,7 +138,7 @@ nav a
     color: #0065FC;
 }
 
-.linkActivite:hover{
+.linkActivite:hover {
     cursor: pointer;
     border-top: 3px solid #0065FC;
 
@@ -149,15 +147,16 @@ nav a
     padding-top: 20px;
 }
 
-#searchLittleSize{
+#searchLittleSize {
     display: none;
 }
+
 /*Presentation*/
 /*-------------------------Navigation--------------------------------*/
 
 
 
-.bordureNone{
+.bordureNone {
     border: none;
 }
 
@@ -166,7 +165,7 @@ nav a
     margin-left: 0;
 }
 
-.iconDiv{
+.iconDiv {
     align-items: center;
     background-color: #f2f2f2;
     padding: 10px;
@@ -174,12 +173,12 @@ nav a
     border-radius: 10px 0 0 10px;
 }
 
-.paddingSearch{
+.paddingSearch {
     padding-left: 20px;
-    margin-bottom:   10px  ;
+    margin-bottom: 10px;
 }
 
-.recherche{
+.recherche {
     height: 50px;
     width: 230px;
     font-size: 18px;
@@ -201,7 +200,7 @@ nav a
     border-radius: 0 10px 10px 0;
 }
 
-.bouttonSearch{
+.bouttonSearch {
     border: none;
     cursor: pointer;
 }
@@ -211,19 +210,20 @@ nav a
 
 /*Filtres*/
 
-.textFilter{
+.textFilter {
     align-self: center;
     margin-top: 20px;
     padding-bottom: 15px;
 }
-.filterList{
+
+.filterList {
     flex-wrap: wrap;
     align-self: center;
 
 }
 
 
-.filters{
+.filters {
     flex-wrap: wrap;
     font-weight: 700;
     font-size: 1.1rem;
@@ -231,7 +231,7 @@ nav a
     margin-top: 20px;
 }
 
-.filter{
+.filter {
     align-items: center;
     height: 46px;
     border: 2px solid #f2f2f2;
@@ -241,17 +241,17 @@ nav a
     border-radius: 25px;
 }
 
-.filter span{
+.filter span {
     padding-left: 12px;
 }
 
-.filter:hover{
+.filter:hover {
     cursor: pointer;
     border-color: #0065FC;
     color: #0065FC;
 }
 
-.iconFilter{
+.iconFilter {
     position: relative;
     right: 1px;
     width: 50px;
@@ -260,12 +260,12 @@ nav a
     background-color: #DEEBFF;
 }
 
-.iconFilter i{
+.iconFilter i {
     margin: auto;
     color: #0065FC;
 }
 
-.iconInfo{
+.iconInfo {
     height: 20px;
     width: 20px;
     border: 1px solid #f2f2f2;
@@ -273,22 +273,22 @@ nav a
     margin-right: 10px;
 }
 
-.iconInfo i{
+.iconInfo i {
     margin: auto;
     font-size: .9rem;
-    color: #0065FC;  
+    color: #0065FC;
 }
 
-.infoPhrase{
+.infoPhrase {
     display: flex;
 }
 
-.infoPhrase i{
+.infoPhrase i {
     margin-right: 15px;
     color: #0065FC;
 }
 
-.divInfoIcon span{
+.divInfoIcon span {
     text-align: center;
     float: left;
     width: 20px;
@@ -296,36 +296,37 @@ nav a
     border: 1px solid black;
     border-radius: 100%;
     margin-right: 8px;
-  }
-  
-  .divInfoIcon span i{
+}
+
+.divInfoIcon span i {
     font-size: 10px;
     line-height: 3px;
     color: #0065fc;
-  }
+}
 
 /*HEBRGMENT */
 .starblue {
-    color:  #0065FC;
-    height: 12px;
-}
-.stargray{
-    color:  #f2f2f2;
+    color: #0065FC;
     height: 12px;
 }
 
-.starblack{
-    color:  black;
+.stargray {
+    color: #f2f2f2;
     height: 12px;
 }
 
-.hebergementPopulaire{
+.starblack {
+    color: black;
+    height: 12px;
+}
+
+.hebergementPopulaire {
     margin-top: 15px;
     height: 650px;
 }
 
 .hebergements {
-    flex : 2;
+    flex: 2;
     background-color: #f2f2f2;
     border-radius: 12px;
     margin-right: 10px;
@@ -335,7 +336,7 @@ nav a
 }
 
 .populaires {
-    flex : 1;
+    flex: 1;
     background-color: #f2f2f2;
     margin-left: 20px;
     border-radius: 12px;
@@ -344,11 +345,11 @@ nav a
 }
 
 .cardHebergementList {
-    justify-content: space-between ;
-    flex-wrap : wrap;
+    justify-content: space-between;
+    flex-wrap: wrap;
     margin-right: 10px;
     margin-left: 10px;
-    margin-bottom: 30px;  
+    margin-bottom: 30px;
 }
 
 .cardHebergement {
@@ -359,47 +360,49 @@ nav a
     padding: 5px;
     margin-bottom: 10px;
     cursor: pointer;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
-    
+
 }
+
 .cardHebergement .card {
-    margin-top: 20px;   
+    margin-top: 20px;
 }
 
 
-.cardHebergement img{
+.cardHebergement img {
     border-radius: 10px 10px 0 0;
     width: 100%;
     object-fit: cover;
     height: 135px;
 }
 
-.hebergementsTitre h3{
-    
-    margin-left: 10px;
-} 
+.hebergementsTitre h3 {
 
-.hebergements a{
+    margin-left: 10px;
+}
+
+.hebergements a {
     text-decoration: none;
     color: black;
     margin-left: 10px;
-} 
-
-.cardHebergement h4,p{
-    margin: 0;
-    margin-top: 3px;
-    margin-bottom:5px;
 }
 
-.cardHebergement i{
+.cardHebergement h4,
+p {
+    margin: 0;
+    margin-top: 3px;
+    margin-bottom: 5px;
+}
+
+.cardHebergement i {
     margin-top: 6px;
 }
 
-.populaires h2{
+.populaires h2 {
     margin-top: -3px;
     margin-left: -13px;
-    margin-right:  45px;
+    margin-right: 45px;
 
     margin-bottom: 15px;
 }
@@ -410,7 +413,7 @@ nav a
 }
 
 
-.cardPopulaire{
+.cardPopulaire {
     display: flex;
     height: 160px;
     width: 400px;
@@ -418,12 +421,12 @@ nav a
     border-radius: 12px;
     padding: 5px;
     cursor: pointer;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     margin-bottom: 10px;
 }
 
-.imgPopulaire{
+.imgPopulaire {
     width: 40%;
     height: 150px;
     margin-right: 15px;
@@ -431,144 +434,144 @@ nav a
 
 }
 
-.cardPopulaire img{
-    border-radius: 10px 0 0  10px   ;
+.cardPopulaire img {
+    border-radius: 10px 0 0 10px;
     width: 90%;
     object-fit: cover;
     height: 144px;
     margin: 8px;
 }
 
-.cardPopulaire i{
+.cardPopulaire i {
     margin-top: 40px;
 }
 
 
 
 /*ACTIVITES*/
-.activites{
+.activites {
     display: flex;
     flex-direction: row;
-    justify-content: space-between ;
+    justify-content: space-between;
     height: 500px;
     margin-bottom: 10px;
-    
+
 
 }
 
 
-.grandeImage{
+.grandeImage {
     height: 500px;
     width: 20%;
     border-radius: 12px;
     cursor: pointer;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
 }
 
-.cardActivite{
+.cardActivite {
     height: 500px;
 }
 
-.cardActivite h4{
+.cardActivite h4 {
     padding-left: 10px;
 }
 
-.imgActivite img{
-   height: 430px; 
-   border-radius: 10px 10px 0 0;
-   width: 100%;
-   object-fit: cover;
+.imgActivite img {
+    height: 430px;
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+    object-fit: cover;
 }
 
-.douobleImagePasMemeTaille{
+.douobleImagePasMemeTaille {
     height: 500px;
     width: 20%;
 }
 
-.douobleImagePasMemeTaille h4{
+.douobleImagePasMemeTaille h4 {
     padding-left: 10px;
 }
 
-.doubleImagePasMemeTaille1   {
+.doubleImagePasMemeTaille1 {
     height: 270px;
     margin-bottom: 30px;
 }
 
-.doubleImagePasMemeTaille2{
+.doubleImagePasMemeTaille2 {
     height: 200px;
 
 }
 
-.cardActivite2{
+.cardActivite2 {
     height: 270px;
     border-radius: 12px;
     cursor: pointer;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
 }
 
-.cardActivite3{
+.cardActivite3 {
     height: 200px;
     border-radius: 12px;
     cursor: pointer;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
 }
 
-.imgActivite2 img{
+.imgActivite2 img {
     height: 210px;
     border-radius: 10px 10px 0 0;
     object-fit: cover;
     width: 100%;
-    
+
 }
 
-.imgActivite3 img{
+.imgActivite3 img {
     height: 140px;
     border-radius: 10px 10px 0 0;
     object-fit: cover;
     width: 100%;
-    
+
 }
 
-.doublecardActivite h4{
+.doublecardActivite h4 {
     margin-top: 0;
     padding-left: 10px;
 }
 
-.doubleImage{
+.doubleImage {
     height: 500px;
     width: 20%;
 }
 
-.doubleImage1   {
+.doubleImage1 {
     height: 235px;
     margin-bottom: 30px;
 }
 
-.doubleImage2{
+.doubleImage2 {
     height: 235px;
 
 }
 
-.doublecardActivite{
+.doublecardActivite {
     height: 230px;
     border-radius: 12px;
     cursor: pointer;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
 }
 
-.doubleimgActivite img{
+.doubleimgActivite img {
     height: 200px;
     border-radius: 10px 10px 0 0;
     object-fit: cover;
     width: 100%;
-    
+
 }
 
-.doublecardActivite h4{
+.doublecardActivite h4 {
     margin-top: 0;
 }
 
@@ -577,40 +580,36 @@ nav a
 /**** footer ******/
 
 
-.divFooter
-{
-  height: 10%;
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 40px;
-  margin-left: 0;
+.divFooter {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-left: 0;
 }
 
-.divFooter a
-{
-  text-decoration: none;
-  color: black;
+.divFooter a {
+    text-decoration: none;
+    color: black;
 }
 
-.divFooter a:hover
-{
-  cursor: pointer;
-  color: #0065fc;
-  font-size: larger;
+.divFooter a:hover {
+    cursor: pointer;
+    color: #0065fc;
+    font-size: larger;
 }
 
-.links
-{
-  margin-left: 20px;
-  margin-right: 170px;
+.links {
+    margin-left: 20px;
+    margin-right: 170px;
 }
 
-.linksA{
+.linksA {
     margin-left: 50px;
     margin-right: 200px;
 }
 
-.linksB{
+.linksB {
     margin-right: 350px;
 }

@@ -1,10 +1,7 @@
-
-
-
 /*--------------------------------------------------------------------------------------------*/
 /*--------------------------------------------------------------------------------------------*/
 /*---------------------------------------------ENTETE------------------------------------------------*/
-.liens li:hover{
+.liens li:hover {
     cursor: pointer;
     border-top: 0;
     padding-top: 0;
@@ -19,12 +16,12 @@
 /*--------------------------------------------NAVIGATION---------------------------------------------*/
 
 /*______________TITRE_______________*/
-#navBar h3{
+#navBar h3 {
     font-size: 35px;
 }
 
 /*______________PHRASE_______________*/
-#navBar p{
+#navBar p {
     font-size: 20px;
 }
 
@@ -33,43 +30,43 @@
 /*______________DIV ICONE_______________*/
 
 /*______________BARRE DE RECHERCHE_______________*/
-.barreDeRecherche{
+.barreDeRecherche {
     border: 2px solid lightgray;
     height: 47px;
     width: 250px;
 }
+
 /*______________BOUTON DE  RECHERCH_______________*/
 
 /*______________DIV FILTRE_______________*/
 
 /*______________TEXTE FILTRE_______________*/
-.textFilter{
+.textFilter {
     font-size: 25px;
 }
 
 /*______________ZONE FILTRES_______________*/
 
 /*______________FILTRES_______________*/
-.filter{
+.filter {
     margin: 5px;
 }
 
 /*______________DIV INFO TEXTE_______________*/
-.divInfoIcon {
-    
-}
+.divInfoIcon {}
 
 /*--------------------------------------------------------------------------------------------*/
 /*--------------------------------------------------------------------------------------------*/
 /*---------------------------------------HEBERGEMENTS POPULAIRES-------------------------------------*/
 /*______________hebergementPopulaire_______________*/
-.hebergementPopulaire{
+.hebergementPopulaire {
     height: 800px;
 
 }
+
 /*______________hebergements_______________*/
 .hebergements {
-    flex : 2;
+    flex: 2;
     background-color: #f2f2f2;
     border-radius: 12px;
     margin-right: 10px;
@@ -96,28 +93,31 @@
     padding: 5px;
     margin-bottom: 10px;
     cursor: pointer;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
-    
+
 }
-.cardHebergement img{
+
+.cardHebergement img {
     border-radius: 10px 10px 0 0;
     width: 100%;
     object-fit: cover;
     height: 115px;
 }
+
 /*______________hebergementCardInfo______________*/
-.hebergementCardInfo h4{
+.hebergementCardInfo h4 {
     font-size: 15px;
 }
 
-.hebergementCardInfo p{
+.hebergementCardInfo p {
+    font-size: 10px;
+}
+
+.hebergementCardInfo i {
     font-size: 15px;
 }
 
-.hebergementCardInfo i{
-    font-size: 15px;
-}
 /*______________populaires______________*/
 
 /*______________populaires______________*/
@@ -125,18 +125,18 @@
 
 /*______________titreEtoile______________*/
 /*______________alignleft______________*/
-.alignleft{
+.alignleft {
     font-size: 20px;
 }
 
 /*______________ETOILENOIRE_______________*/
-#etoileNoire{
+#etoileNoire {
     display: none;
 }
 
 /*______________POPULAIRES_______________*/
-.populaires{
-    flex : 1;
+.populaires {
+    flex: 1;
     background-color: #f2f2f2;
     margin-left: 20px;
     border-radius: 12px;
@@ -145,7 +145,7 @@
 }
 
 /*______________cardPopulaire_______________*/
-.cardPopulaire{
+.cardPopulaire {
     display: flex;
     height: 160px;
     width: auto;
@@ -153,25 +153,30 @@
     border-radius: 12px;
     padding: 5px;
     cursor: pointer;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     margin-bottom: 30px;
 }
 
 /*______________imgPopulaire_______________*/
-
+.doubleimgActivite img {
+    height: 180px;
+  }
 /*______________cardPopulaireInfo_______________*/
 
 /*_______________cardPopulaireInfo h4______________*/
 
 /*______________cardPopulaireInfo p_______________*/
-.cardPopulaireInfo p{
-}
 
 /*______________cardPopulaireInfo i_______________*/
-.cardPopulaireInfo i{
+.cardPopulaireInfo i {
     font-size: 10px;
 }
+
+.cardPopulaire i {
+    margin-top: 0px;
+
+  }
 
 
 /*--------------------------------------------------------------------------------------------*/
@@ -182,28 +187,20 @@
 /*--------------------------------------------FOOTER-------------------------------------------------*/
 
 /*_______________footer______________*/
-footer{
-
-}
 
 /*_______________divFooter______________*/
 
-.divFooter{
 
-}
 /*_______________linksA______________*/
-.linksA{
+.linksA {
     margin-right: 100px;
 }
 
 
 /*_______________linksB______________*/
 
-.linksB{
+.linksB {
     margin-right: 100px;
 }
 
 /*_______________linksC______________*/
-.linksC {
-    
-}

@@ -1,16 +1,11 @@
+html{
+    font-family: 'Raleway', sans-serif;
+
+}
 /*GENERAL*/
 .blocPage {
     margin: auto;
     width: 100%;
-}
-
-p {
-    font-family: 'Raleway', sans-serif;
-}
-
-
-h1.h2.h3.h4.h5 {
-    font-family: 'Raleway', sans-serif;
 }
 
 .clear {
@@ -131,7 +126,6 @@ nav a {
     border-top: 3px solid #0065FC;
     border-color: #0065FC;
     color: #0065FC;
-    padding-top: 20px;
 }
 
 #link_act:hover {
@@ -144,7 +138,6 @@ nav a {
 
     border-color: #0065FC;
     color: #0065FC;
-    padding-top: 20px;
 }
 
 #searchLittleSize {

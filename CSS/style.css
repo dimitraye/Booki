@@ -388,6 +388,7 @@ nav a {
 
 #afficherPlus {
     margin-left: 10px;
+    font-weight: bold;
 }
 
 
@@ -457,6 +458,9 @@ p {
 
 
 /*ACTIVITES*/
+#sectionActivite{
+    margin-top: 60px;
+}
 .activites {
     display: flex;
     flex-direction: row;
@@ -604,7 +608,9 @@ p {
 /*FOOTER*/
 
 /**** footer ******/
-
+footer{
+    height: 180px;
+}
 
 .divFooter {
     height: 10%;

@@ -1,7 +1,5 @@
 /*BODY*/
-body {
-    border: 3px solid red;
-}
+
 
 /*------------BlocPage------------*/
 .blocPage {
@@ -11,8 +9,8 @@ body {
 /*------------globalSansFooter------------*/
 .globalSansFooter {
     margin-bottom: 40px;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 /*---------------------------------------ENTÊTE------------------------------------------------------------*/
@@ -39,22 +37,22 @@ header a {
     margin-left: auto;
     margin-right: auto;
     padding-left: 25px;
+    height: 45px;
+    width: 100px;
 }
 
 /**/
 /*------------Lien------------*/
 .liens {
     width: 100%;
-
 }
 
 .liens ul {
     padding: 0px;
 }
 
-
 .liens li {
-    border-bottom: 3px solid gray;
+    border-bottom: 3px solid lightgray;
     width: 50%;
     margin: 0;
     font-size: 15px;
@@ -70,7 +68,10 @@ header a {
     color: #0065FC;
 }
 
-
+nav a:hover
+{
+  border-top: none;
+}
 
 /*---------------------------------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------------------------------*/
@@ -82,29 +83,24 @@ header a {
     padding: 15px;
     padding-top: 10px;
     margin-bottom: 10px;
-
-
-
 }
 
 #navBar h3 {
     font-size: 22px;
     margin-top: 0;
-
 }
 
 #navBar p {
     font-size: 15px;
 }
 
-
 .recherche {
     height: 47px;
-    width: 190px;
     font-size: 18px;
     color: black;
     font-weight: bold;
     margin: 0;
+    width: 100%;
 }
 
 .buttonSearch {
@@ -125,43 +121,40 @@ header a {
 }
 
 
-
+i.fa-magnifying-glass {
+    display: block;
+}
 
 
 .filters {
     display: flex;
 }
 
-.filterList {
-    justify-content: space-between;
-
-}
-
 .textFilter {
     width: 100%;
+    margin-bottom: 10px;
+    font-size: 18px;
 }
 
 .filter {
     margin: 0;
     margin-left: 0px;
-    margin-right: 0;
-    margin-bottom: 10px;
+    margin-right: 15px;
+    margin-bottom: 15px;
     border: 1px solid lightgray;
 
 }
 
 .filter span {
-    font-size: 12px;
+    font-size: 16px;
 }
-
-
 
 .divInfoIcon {
     font-size: 15px;
 }
 
-.iconDiv {
-    width: 25px;
+.divInformation {
+    margin-bottom: 0px; 
 }
 
 /*---------------------------------------------------------------------------------------------------*/
@@ -174,53 +167,75 @@ header a {
     display: flex;
     flex-direction: column-reverse;
     width: auto;
-    height: 2360px;
-    margin-bottom: 65px;
+    height: 1960px;
+    margin-bottom: 40px;
 }
 
-
 .populaires {
-    height: 580px;
     margin-left: 0;
-    background-color: #f2f2f2;
-    border-radius: 0 0 0 0;
+    border-radius: 0;
+    height: 540px;
+}
+
+.populaireContent {
+    width:  auto;
+    padding-right: 12px;
+    margin-left: 0px;
+    }
+.populaires h2 {
+    margin-top: 15px;
+    margin-bottom: 65px;
 }
 
 .titreEtoile i {
     font-size: 19px;
-    margin-right: -60px;
-}
-
-
-.cardPopulaire {
-    height: 170px;
-    margin-top: 20px;
-    margin-left: -10px;
-    width: auto;
-    margin-right: -10px;
-    font-size: 17px;
-    padding: 5px;
+    display: block;
 }
 
 .imgPopulaire {
-    width: 40%;
-    height: 150px;
-    margin-right: 15px;
+    height: 128px;
 }
 
 .cardPopulaire img {
+    height: inherit;
     border-radius: 10px 0 0 10px;
     width: 100%;
     object-fit: cover;
+    margin: 0;
+}
+
+.cardPopulaire {
+    height: 130px;
+    margin-top: 15px;
+
+}
+
+.cardPopulaire h4 {
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.cardPopulaireInfo {
+    padding-right: 30px;
+}
+
+.cardPopulaireInfo p {
+ padding-bottom: 30px;
+}
+
+.cardPopulaireInfo i {
+    font-size: 12px;
 }
 
 .hebergements {
     margin-right: 0;
-    height: 2000px;
-    margin-right: 0;
+    height: 1395px;
     background-color: white;
+    margin-left: 0;
+}
 
-
+#hebergementsTitre {
+    margin-left: 10px;
 }
 
 .hebergements h3 {
@@ -230,30 +245,23 @@ header a {
 
 .cardHebergementList {
     display: block;
-    height: 1600px;
-    margin-left: -12px;
-    margin-right: -12px;
-    margin-bottom: -30px;
+    height: 1255px;
 }
 
 
 .cardHebergement {
-    height: 230px;
-    width: 80%;
-    margin-bottom: 20px;
-    margin-left: 8%;
-    margin-right: 10%;
-
+    height: 187px;
+    margin-bottom: 15px;
     cursor: pointer;
     transition: 0.3s;
     border-radius: 10px 10px 10px 10px;
-
+    margin-left: 0;
+    width:  auto;
 }
 
-.cardHebergement img {
-    margin-right: 0%;
+.cardHebergement img { 
+    margin-left: 10px;
 }
-
 
 .hebergements a {
     font-size: 25px;
@@ -261,24 +269,46 @@ header a {
     margin-left: -10px;
 }
 
+#afficherPlus {
+    font-size: 19px;
+}
 
+.cardHebergement h4 {
+    font-size: 17px;
+    margin-bottom: 0;
+}
 
+.cardHebergement p {
+    font-size: 14px;
+    margin-bottom: 0;
+}
 
+.cardHebergement i {
+    font-size: 12px;
+}
 
 /*---------------------------------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------------------------------*/
 /*---------------------------------------ACTIVITES------------------------------------------------------------*/
+#sectionActivite {
+    flex: 1;
 
-.activitesAMarseille {
-    display: block;
-    height: 1603px;
+    padding: 20px;
+    padding-top: 0;
+
+    margin-top: 0;
+}
+
+#activitesAMarseille {
+ font-size: 22px;
 }
 
 .activites {
     display: block;
-    height: 1603px;
+    height: 1220px;
+    margin-top: 27px;
 }
 
 .grandeImage {
@@ -287,112 +317,42 @@ header a {
     margin-bottom: 20px;
 }
 
-.cardActivite {
-    height: 230px;
+.cardActivite, .cardActivite2, .cardActivite3, .doublecardActivite {
+    height: 190px;
+    width: auto;
+    border-radius: 20px;
+}
+
+.imgActivite, .imgActivite2, .imgActivite3, .doubleimgActivite {
+    height: 135px;
     width: auto;
 }
 
-.imgActivite {
-    height: 180px;
-    width: auto;
-}
-
-.imgActivite img {
-    height: 180px;
-    margin-right: -50px;
+.imgActivite img, .imgActivite2 img, .imgActivite3 img, .doubleimgActivite img{
+    height: inherit;
+    border-radius: 20px 20px 0 0;
 }
 
 .cardActiviteInfo h4 {
-    font-size: 20px;
+    font-size: 16px;
+    padding-left: 20px;
 }
 
+.doubleImage .cardActiviteInfo {
+    padding-left: 0px;
+    height: 55px; 
+}
 
-/*-------------------------------*/
-
-.douobleImagePasMemeTaille {
-    height: 522px;
+.douobleImagePasMemeTaille, .doubleImage {
     width: auto;
+    margin-right: 0;
+    margin-left: 0;
+    height: 400px;
     margin-bottom: 20px;
-
+    padding: 0;
 }
 
-.doubleImagePasMemeTaille1 {
-    height: 250px;
-    width: auto;
-    margin-bottom: 20px;
-}
-
-.cardActivite2 {
-    height: 250px;
-    width: auto;
-}
-
-.imgActivite2 {
-    height: 180px;
-    width: auto;
-}
-
-.imgActivite2 img {
-    height: 180px;
-}
-
-.doubleImagePasMemeTaille2 {
-    height: 250px;
-    width: auto;
-}
-
-.cardActivite3 {
-    height: 250px;
-    width: auto;
-}
-
-.imgActivite3 {
-    height: 180px;
-    width: auto;
-}
-
-.imgActivite3 img {
-    height: 180px;
-}
-
-/*-------------------------------*/
-
-.doubleImage {
-    height: 522px;
-    width: auto;
-    margin-bottom: 20px;
-}
-
-.doubleImage1 {
-    height: 250px;
-    width: auto;
-    margin-bottom: 20px;
-}
-
-.doublecardActivite {
-    height: 250px;
-    width: auto;
-}
-
-.doubleimgActivite {
-    height: 180px;
-    width: auto;
-}
-
-.doubleimgActivite img {
-    height: 180px;
-}
-
-.doublecardActivite h4 {
-    margin-top: 20px;
-    font-size: 20px;
-
-}
-
-
-.doubleImage2 {
-    height: 250px;
-    width: auto;
+.doubleImagePasMemeTaille1, .doubleImage1 {
     margin-bottom: 20px;
 }
 
@@ -405,7 +365,7 @@ header a {
 footer {
     background-color: #f2f2f2;
     padding-top: 15px;
-    height: auto;
+    height: 450px;
 }
 
 .divFooter {
@@ -424,34 +384,16 @@ footer {
 
 .linksA {
     margin-top: 40px;
+}
+
+.linksA, .linksB, .linksC {
     margin-bottom: 40px;
     width: 300px;
+    margin-left: 20px;
 
 }
 
-.linksA h4 {
-    margin-top: 0;
-    margin-bottom: 20px;
-}
-
-.linksB {
-    margin-bottom: 40px;
-    margin-left: 50px;
-    width: 300px;
-}
-
-.linksB h4 {
-    margin-top: 0;
-    margin-bottom: 20px;
-}
-
-.linksC {
-    margin-bottom: 40px;
-    margin-left: 50px;
-    width: 300px;
-}
-
-.linksC h4 {
+.linksA h4, .linksB h4, .linksC h4  {
     margin-top: 0;
     margin-bottom: 20px;
 }

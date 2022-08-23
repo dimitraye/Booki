@@ -8,29 +8,15 @@
     <link rel="stylesheet" href="CSS/normalise.css" />
 
     <link rel="stylesheet" href="CSS/style.css" />
-    <link
-      rel="stylesheet"
-      media="screen and (max-width:992px)"
-      href="CSS/moyen_style.css"
-    />
-    <link
-      rel="stylesheet"
-      media="screen and (max-width:768px)"
-      href="CSS/petit_style.css"
-    />
+    <link rel="stylesheet" media="screen and (max-width:992px)" href="CSS/moyen_style.css"/>
+    <link rel="stylesheet" media="screen and (max-width:768px)" href="CSS/petit_style.css"/>
 
     <!--Utilisation de la biblio FontAwesome-->
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-      rel="stylesheet"
-    />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet"/>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet"/>
     <title>Booki</title>
   </head>
   <body>
@@ -113,11 +99,11 @@
               </div>
             </div>
 
-            <div class="divInfoIcon">
-              <span>
+            <div class="divInformation">
+              <div class="divInfoIcon">
                 <i class="fa fa-info fa-lg"></i>
-              </span>
-              Plus de 500 logements sont disponibles dans cette ville
+              </div>
+              <span id="textinfo">Plus de 500 logements sont disponibles dans cette ville</span>
             </div>
           </div>
         </section>
@@ -134,7 +120,7 @@
                   alt="Photo d'une chambre avec un lit superposé et vu sur la ville"
                 />
                 <div class="hebergementCardInfo">
-                  <h4><b>Auberge le Cannebière</b></h4>
+                  <h4>Auberge la Cannebière</h4>
                   <p>Nuit à partir de <span class="bold">25</span> <span class="bold">€</span></p>
                   <i class="fa fa-star space starblue" aria-hidden="true"></i>
                   <i class="fa fa-star space starblue" aria-hidden="true"></i>
@@ -152,7 +138,7 @@
                   alt="Photo d'une chambre avec deux lits simples"
                 />
                 <div class="hebergementCardInfo">
-                  <h4><b>Hôtel Les mouettes</b></h4>
+                  <h4>Hôtel Les mouettes</h4>
                   <p>Nuit à partir de <span>52</span> <span class="bold">€</span></p>
                   <i class="fa fa-star space starblue" aria-hidden="true"></i>
                   <i class="fa fa-star space starblue" aria-hidden="true"></i>
@@ -170,7 +156,7 @@
                     alt="Photo d'une chambre avec un lit simple"
                   />
                   <div class="hebergementCardInfo">
-                    <h4><b>Auberge Le Panier</b></h4>
+                    <h4>Auberge Le Panier</h4>
                     <p>Nuit à partir de <span>76</span> <span class="bold">€</span></p>
                     <i class="fa fa-star space starblue" aria-hidden="true"></i>
                     <i class="fa fa-star space starblue" aria-hidden="true"></i>
@@ -240,74 +226,88 @@
           </section>
 
           <section class="populaires">
-            <h2 class="titreEtoile">
-              <span class="alignleft"> Les plus populaires</span>
-              <span id="etoileNoire">
-                <i
-                  class="fa fa-star space alignright starblack"
-                  aria-hidden="true"
-                ></i>
-              </span>
-            </h2>
+            <div class="populaireContent">
+              <h2 class="titreEtoile">
+                <span class="alignleft"> Les plus populaires</span>
+                <span id="etoileNoire">
+                  <i
+                    class="fa fa-star space alignright starblack"
+                    aria-hidden="true"
+                  ></i>
+                </span>
+              </h2>
+  
+              <div class="clear"></div>
+              
+              <article class="cardPopulaire">
+                <div class="imgPopulaire">
+                  <img
+                    src="Images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
+                    alt="Photo d'une chambre luxueuse avec un grand lit double"
+                    class="img-pop"
+                  />
+                </div>
+                <div class="cardPopulaireInfo">
+                  <div class="populaireTitle">
+                    <h4>Hôtel Le soleil du matin</h4>
+                    <p>Nuit à partir de <span>128</span><span class="bold">€</span></p>
+                  </div>
+                  <div class="populaireStar">
+                    <i class="fa fa-star space starblue" aria-hidden="true"></i>
+                    <i class="fa fa-star space starblue" aria-hidden="true"></i>
+                    <i class="fa fa-star space starblue" aria-hidden="true"></i>
+                    <i class="fa fa-star space starblue" aria-hidden="true"></i>
+                    <i class="fa fa-star space stargray" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </article>
+  
+              <article class="cardPopulaire">
+                <div class="imgPopulaire">
+                  <img
+                    src="Images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"
+                    alt="Photo d'une chambre moderne avec un grand lit double"
+                    class="img-pop"
+                  />
+                </div>
+                <div class="cardPopulaireInfo">
+                  <div class="populaireTitle">
+                    <h4>Au coeur de l'eau Chambres d'hôtes</h4>
+                    <p>Nuit à partir de <span>71</span><span class="bold">€</span></p>
+                </div>
+                <div class="populaireStar">
+                  <i class="fa fa-star space starblue" aria-hidden="true"></i>
+                  <i class="fa fa-star space starblue" aria-hidden="true"></i>
+                  <i class="fa fa-star space starblue" aria-hidden="true"></i>
+                  <i class="fa fa-star space starblue" aria-hidden="true"></i>
+                  <i class="fa fa-star space stargray" aria-hidden="true"></i>
+                </div>
+              </article>
+  
+              <article class="cardPopulaire">
+                <div class="imgPopulaire">
+                  <img
+                    src="Images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
+                    alt="Photo d'une chambre avec un lit double"
+                    class="img-pop"
+                  />
+                </div>
+                <div class="cardPopulaireInfo">
+                  <div class="populaireTitle">
+                    <h4><b>Hôtel Tout Bleu et Blanc</b></h4>
+                    <p>Nuit à partir de <span>68</span><span class="bold">€</span></p>
+                </div>
+                <div class="populaireStar">
+                  <i class="fa fa-star space starblue" aria-hidden="true"></i>
+                  <i class="fa fa-star space starblue" aria-hidden="true"></i>
+                  <i class="fa fa-star space starblue" aria-hidden="true"></i>
+                  <i class="fa fa-star space starblue" aria-hidden="true"></i>
+                  <i class="fa fa-star space stargray" aria-hidden="true"></i>
+                </div>
+                </div>
+              </article>
+            </div>
 
-            <div class="clear"></div>
-            
-            <article class="cardPopulaire">
-              <div class="imgPopulaire">
-                <img
-                  src="Images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
-                  alt="Photo d'une chambre luxueuse avec un grand lit double"
-                  class="img-pop"
-                />
-              </div>
-              <div class="cardPopulaireInfo">
-                <h4>Hôtel Le soleil du matin</h4>
-                <p>Nuit à partir de <span>128</span> <span class="bold">€</span></p>
-                <i class="fa fa-star space starblue" aria-hidden="true"></i>
-                <i class="fa fa-star space starblue" aria-hidden="true"></i>
-                <i class="fa fa-star space starblue" aria-hidden="true"></i>
-                <i class="fa fa-star space starblue" aria-hidden="true"></i>
-                <i class="fa fa-star space starblue" aria-hidden="true"></i>
-              </div>
-            </article>
-
-            <article class="cardPopulaire">
-              <div class="imgPopulaire">
-                <img
-                  src="Images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"
-                  alt="Photo d'une chambre moderne avec un grand lit double"
-                  class="img-pop"
-                />
-              </div>
-              <div class="cardPopulaireInfo">
-                <h4>Au coeur de l'eau Chambres d'hôtes</h4>
-                <p>Nuit à partir de <span>71</span> <span class="bold">€</span></p>
-                <i class="fa fa-star space starblue" aria-hidden="true"></i>
-                <i class="fa fa-star space starblue" aria-hidden="true"></i>
-                <i class="fa fa-star space starblue" aria-hidden="true"></i>
-                <i class="fa fa-star space starblue" aria-hidden="true"></i>
-                <i class="fa fa-star space starblue" aria-hidden="true"></i>
-              </div>
-            </article>
-
-            <article class="cardPopulaire">
-              <div class="imgPopulaire">
-                <img
-                  src="Images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
-                  alt="Photo d'une chambre avec un lit double"
-                  class="img-pop"
-                />
-              </div>
-              <div class="cardPopulaireInfo">
-                <h4><b>Hôtel Tout Bleu et Blanc</b></h4>
-                <p>Nuit à partir de <span>68</span> <span class="bold">€</span></p>
-                <i class="fa fa-star space starblue" aria-hidden="true"></i>
-                <i class="fa fa-star space starblue" aria-hidden="true"></i>
-                <i class="fa fa-star space starblue" aria-hidden="true"></i>
-                <i class="fa fa-star space starblue" aria-hidden="true"></i>
-                <i class="fa fa-star space starblue" aria-hidden="true"></i>
-              </div>
-            </article>
           </section>
         </div>
 
@@ -337,7 +337,7 @@
                   />
                 </div>
                 <div class="cardActiviteInfo">
-                  <h4>Port de Pomègues</h4>
+                  <h4>Fort de Pomègues</h4>
                 </div>
               </article>
 
@@ -423,3 +423,8 @@
     </div>
   </body>
 </html>
+
+
+
+
+

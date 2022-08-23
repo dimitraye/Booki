@@ -4,8 +4,6 @@ html {
 }
 
 
-
-
 /*GENERAL*/
 .blocPage {
     margin: auto;
@@ -73,6 +71,7 @@ footer {
 /*ENTETE*/
 header {
     display: flex;
+    align-items: center;
 }
 
 .voidDiv {
@@ -80,19 +79,18 @@ header {
 }
 
 
-#logo {
+/* #logo {
     height: 62px;
     width: 120px;
     display: flex;
     flex-direction: row;
     align-items: baseline;
+} */
 
-}
-
-#logo img {
+/* #logo img {
     height: 62px;
     width: 120px;
-}
+} */
 
 
 /* Navigation */
@@ -107,15 +105,17 @@ nav li {
 }
 
 nav a {
-    font-size: 1.3em;
+    font-size: 20px;
     color: #181818;
     padding-bottom: 3px;
     text-decoration: none;
     padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 nav a:hover {
-    border-top: 3px solid #0073ca;
+    border-top: 3px solid #0065fc;
     color: #0065fc;
 }
 
@@ -128,14 +128,20 @@ nav a:hover {
 /*Presentation*/
 /*-------------------------Navigation--------------------------------*/
 
+
+h1 {
+    font-size: 26px;
+    margin: 0.67em 0;
+}
+
 .bordureNone {
     border: none;
 }
 
 .search {
-    margin-top: 15px;
+    margin: 20px;
     margin-left: 0;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
 }
 
 .iconDiv {
@@ -153,6 +159,8 @@ nav a:hover {
     font-size: 18px;
     color: black;
     font-weight: bold;
+    border-top: 2px solid #f2f2f2;
+    border-bottom: 2px solid #f2f2f2;
 }
 
 .recherche::placeholder {
@@ -213,6 +221,7 @@ i.fa-magnifying-glass {
     margin-left: 20px;
     padding-right: 20px;
     border-radius: 25px;
+    margin-bottom: 10px;
 }
 
 .filter span {
@@ -265,24 +274,22 @@ i.fa-magnifying-glass {
 .divInformation {
     margin-bottom: 30px;
     display: flex;
+    align-items: center;
 }
 
-.divInfoIcon {
-    text-align: center;
-    float: left;
-    width: 20px;
-    height: 20px;
-    line-height: 20px;
-    border: 1px solid black;
-    border-radius: 100%;
-    margin-right: 8px;
-}
-
-.divInfoIcon i {
-    font-size: 13px;
+.divInformation .fa.fa-info.fa-lg {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #f2f2f2;
+    border-radius: 25px;
+    margin-right: 10px;
     color: #0065fc;
-    vertical-align: baseline;
 }
+
+
 
 #textinfo {
     align-self: flex-end;

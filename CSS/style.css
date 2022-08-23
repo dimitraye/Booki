@@ -1,27 +1,10 @@
-html{
+html {
     scroll-behavior: smooth;
     font-family: 'Raleway', sans-serif;
 }
 
-/* On screens that are between 993px and 1152px */
-@media screen and (max-width: 1152px) and (min-width: 993px) {
-    .cardHebergement h4, .cardPopulaireInfo h4 {
-        font-size: 15px;
-    }
 
-    .cardHebergement p, .cardPopulaireInfo p {
-        font-size: 14px;
-    }
 
-    .cardHebergement i, .cardPopulaireInfo i {
-        font-size: 13px;
-    }
-
-    #etoileNoire {
-        display: none;
-    }
-  }
-  
 
 /*GENERAL*/
 .blocPage {
@@ -72,7 +55,7 @@ html{
 }
 
 
-.bold{
+.bold {
     font-weight: bold;
 }
 
@@ -131,10 +114,9 @@ nav a {
     padding-top: 10px;
 }
 
-nav a:hover
-{
-  border-top: 3px solid #0073ca;
-  color: #0065fc;
+nav a:hover {
+    border-top: 3px solid #0073ca;
+    color: #0065fc;
 }
 
 
@@ -173,7 +155,7 @@ nav a:hover
     font-weight: bold;
 }
 
-.recherche::placeholder{
+.recherche::placeholder {
     color: black;
     padding-left: 15px;
 }
@@ -189,7 +171,7 @@ nav a:hover
     width: 120px;
     color: white;
     cursor: pointer;
-    border-radius: 0 10px 10px 0;   
+    border-radius: 0 10px 10px 0;
 }
 
 .bouttonSearch {
@@ -304,7 +286,7 @@ i.fa-magnifying-glass {
 
 #textinfo {
     align-self: flex-end;
-  }
+}
 
 /*HEBRGMENT */
 .starblue {
@@ -459,14 +441,15 @@ p {
     height: 10%;
 }
 
-#titleAndPrice{
+#titleAndPrice {
     display: flex;
 }
 
 /*ACTIVITES*/
-#sectionActivite{
+#sectionActivite {
     margin-top: 60px;
 }
+
 .activites {
     display: flex;
     flex-direction: row;
@@ -477,12 +460,12 @@ p {
 
 }
 
-.cardActiviteInfo{
+.cardActiviteInfo {
     display: flex;
     align-items: center;
 }
 
-.doubleImage .cardActiviteInfo{
+.doubleImage .cardActiviteInfo {
     padding-left: 10px;
     height: 45px;
 }
@@ -569,7 +552,7 @@ p {
 .doubleImage {
     height: 500px;
     width: 23.5%;
-    margin-left: 3%;    
+    margin-left: 3%;
 }
 
 .doubleImage1 {
@@ -590,7 +573,7 @@ p {
     transition: 0.3s;
 }
 
-.doubleimgActivite  {
+.doubleimgActivite {
     height: 185px;
 
 
@@ -608,7 +591,7 @@ p {
 /*FOOTER*/
 
 /**** footer ******/
-footer{
+footer {
     height: 180px;
 }
 
@@ -644,4 +627,35 @@ footer{
 
 .linksB {
     margin-right: 350px;
+}
+
+
+
+
+/* On screens that are between 993px and 1152px */
+@media screen and (max-width: 1152px) and (min-width: 993px) {
+
+    .cardHebergement h4,
+    .cardPopulaireInfo h4 {
+        font-size: 15px;
+    }
+
+    .cardHebergement p,
+    .cardPopulaireInfo p {
+        font-size: 14px;
+    }
+
+    .cardHebergement i,
+    .cardPopulaireInfo i {
+        font-size: 13px;
+    }
+
+    #etoileNoire {
+        display: none;
+    }
+
+    .linksA,
+    .linksB {
+        margin-right: 50px;
+    }
 }

@@ -463,18 +463,16 @@ p {
     height: 500px;
     margin-bottom: 10px;
     margin-left: 0%;
-    margin-left: 0%;
-
 }
 
 .cardActiviteInfo {
     display: flex;
     align-items: center;
+    height: 70px;
 }
 
 .doubleImage .cardActiviteInfo {
     padding-left: 10px;
-    height: 45px;
 }
 
 .grandeImage {
@@ -492,6 +490,12 @@ p {
 
 .cardActivite h4 {
     padding-left: 10px;
+}
+
+.imgActivite {
+    height: 430px;
+    border-radius: 10px 10px 0 0;
+    width: 100%;
 }
 
 .imgActivite img {
@@ -540,20 +544,33 @@ p {
     transition: 0.3s;
 }
 
-.imgActivite2 img {
-    height: 210px;
+.imgActivite2 {
+    height: 200px;
     border-radius: 10px 10px 0 0;
+    width: 100%;
+}
+
+.imgActivite2 img {
     object-fit: cover;
     width: 100%;
+    height: inherit;
+    border-radius: 10px 10px 0 0;
 
 }
 
-.imgActivite3 img {
-    height: 140px;
+.imgActivite3  {
+    height: 130px;
     border-radius: 10px 10px 0 0;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+
+.imgActivite3 img {
     object-fit: cover;
     width: 100%;
-
+    height: inherit;
+    border-radius: 10px 10px 0 0;
 }
 
 .doubleImage {
@@ -573,7 +590,7 @@ p {
 }
 
 .doublecardActivite {
-    height: 230px;
+    height: 235px;
     border-radius: 12px;
     cursor: pointer;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -581,9 +598,8 @@ p {
 }
 
 .doubleimgActivite {
-    height: 185px;
-
-
+    height: 165px;
+    border-radius: 12px;
 }
 
 
@@ -591,8 +607,7 @@ p {
     border-radius: 10px 10px 0 0;
     object-fit: cover;
     width: 100%;
-    height: 100%;
-
+    height: inherit;
 }
 
 /*FOOTER*/
@@ -629,11 +644,11 @@ footer {
 
 .linksA {
     margin-left: 50px;
-    margin-right: 200px;
+    width: 28.5%;
 }
 
 .linksB {
-    margin-right: 350px;
+    width: 34%;
 }
 
 
@@ -661,8 +676,5 @@ footer {
         display: none;
     }
 
-    .linksA,
-    .linksB {
-        margin-right: 50px;
-    }
+
 }

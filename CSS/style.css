@@ -78,21 +78,6 @@ header {
     width: 75%;
 }
 
-
-/* #logo {
-    height: 62px;
-    width: 120px;
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
-} */
-
-/* #logo img {
-    height: 62px;
-    width: 120px;
-} */
-
-
 /* Navigation */
 
 nav ul {
@@ -109,9 +94,10 @@ nav a {
     color: #181818;
     padding-bottom: 3px;
     text-decoration: none;
-    padding-top: 10px;
+    padding-top: 20px;
     padding-left: 10px;
     padding-right: 10px;
+    margin-top: 0;
 }
 
 nav a:hover {
@@ -180,11 +166,7 @@ h1 {
     color: white;
     cursor: pointer;
     border-radius: 0 10px 10px 0;
-}
-
-.bouttonSearch {
-    border: none;
-    cursor: pointer;
+    font-weight: 700;
 }
 
 i.fa-magnifying-glass {
@@ -296,6 +278,10 @@ i.fa-magnifying-glass {
 }
 
 /*HEBRGMENT */
+#hebergementsTitre{
+    margin-left: 10px ;
+}
+
 .starblue {
     color: #0065FC;
     height: 12px;
@@ -323,7 +309,10 @@ i.fa-magnifying-glass {
     margin-right: 10px;
     padding-right: 10px;
     padding-left: 10px;
+}
 
+.hebergementsTitre {
+    margin-left: 10px;
 }
 
 .cardHebergementList {
@@ -339,12 +328,14 @@ i.fa-magnifying-glass {
     background-color: white;
     width: 30%;
     border-radius: 12px;
+    cursor: pointer;
     padding: 5px;
     margin-bottom: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
 
 }
+
 
 .cardHebergement .card {
     margin-top: 20px;
@@ -357,6 +348,7 @@ i.fa-magnifying-glass {
     object-fit: cover;
     height: 135px;
 }
+
 
 .hebergementsTitre h3 {
 
@@ -396,6 +388,7 @@ p {
     border-radius: 12px;
     padding: 20px;
 }
+
 
 .populaires h2 {
     margin-top: -3px;

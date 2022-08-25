@@ -167,6 +167,7 @@ h1 {
     cursor: pointer;
     border-radius: 0 10px 10px 0;
     font-weight: 700;
+    border: none;    
 }
 
 i.fa-magnifying-glass {

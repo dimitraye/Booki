@@ -317,7 +317,10 @@ i.fa-magnifying-glass {
     height: 250px;
     width: auto;
     margin-bottom: 20px;
+    margin-right: 0;
 }
+
+
 
 .cardActivite,
 .cardActivite2,

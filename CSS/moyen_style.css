@@ -161,7 +161,29 @@
 /*--------------------------------------------------------------------------------------------*/
 /*-----------------------------------------------ACTIVITES-------------------------------------------*/
 
+.activites{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+}
+.grandeImage{
+    width: 45%;
+    margin-right: 6%;
+    margin-bottom: 5%;
 
+}
+.douobleImagePasMemeTaille{
+    width: 45%;
+    margin-right: 0;
+    margin-bottom: 5%;
+
+}
+
+.doubleImage{
+    width: 45%;
+    margin-right: 0;
+    margin-bottom: 5%;
+}
 .linksB {
     margin-left: 20px;
 }

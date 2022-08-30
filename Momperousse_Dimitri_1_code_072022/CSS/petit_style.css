@@ -1,0 +1,419 @@
+/*BODY*/
+
+
+/*------------BlocPage------------*/
+.blocPage {
+    display: block;
+}
+
+/*------------globalSansFooter------------*/
+.globalSansFooter {
+    margin-bottom: 40px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+/*---------------------------------------ENTÊTE------------------------------------------------------------*/
+/*------------ENTETE------------*/
+/*------------header------------*/
+/*------------Logo------------*/
+header {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+header a {
+    width: 100%;
+}
+
+#logo {
+    width: 100%;
+}
+
+#logo img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 25px;
+    width: 30%;
+    margin-top: 10px;
+}
+
+/**/
+/*------------Lien------------*/
+.liens {
+    width: 100%;
+}
+
+.liens ul {
+    padding: 0px;
+}
+
+.liens li {
+    padding-bottom: 10px;
+    border-bottom: 3px solid #f2f2f2;
+    width: 50%;
+    margin: 0;
+    font-size: 15px;
+    text-align: center;
+}
+
+.liens li:hover {
+    cursor: pointer;
+    border-top: 0;
+    padding-top: 0;
+    border-bottom: 3px solid #0065FC;
+    border-color: #0065FC;
+    color: #0065FC;
+}
+
+nav a:hover {
+    border-top: none;
+}
+
+/*---------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------*/
+/*---------------------------------------PRESENTATION------------------------------------------------------------*/
+#navBar {
+    display: block;
+    padding: 15px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+#navBar h3 {
+    font-size: 22px;
+    margin-top: 0;
+}
+
+#navBar p {
+    font-size: 15px;
+}
+
+.recherche {
+    height: 47px;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    margin: 0;
+    width: 100%;
+}
+
+.buttonSearch {
+    display: flex;
+    height: 50px;
+    width: 50px;
+    margin-left: -7px;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px 10px 10px 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#searchNormalSize {
+    display: none;
+}
+
+
+i.fa-magnifying-glass {
+    display: block;
+}
+
+
+.filters {
+    display: flex;
+}
+
+.textFilter {
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.filter {
+    margin: 0;
+    margin-left: 0px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #f2f2f2;
+
+}
+
+.filter span {
+    font-size: 16px;
+}
+
+.divInfoIcon {
+    font-size: 15px;
+}
+
+.divInformation {
+    margin-bottom: 0px;
+}
+
+/*---------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------*/
+/*---------------------------------------HEBERGEMENTS------------------------------------------------------------*/
+
+.hebergementPopulaire {
+    display: flex;
+    flex-direction: column-reverse;
+    width: auto;
+    height: 1960px;
+    margin-bottom: 40px;
+}
+
+.populaires {
+    margin-left: 0;
+    border-radius: 0;
+    height: 540px;
+}
+
+.populaireContent {
+    width: auto;
+    padding-right: 12px;
+    margin-left: 0px;
+}
+
+.populaires h2 {
+    margin-top: 15px;
+    margin-bottom: 65px;
+}
+
+.titreEtoile i {
+    font-size: 19px;
+    display: block;
+}
+
+.imgPopulaire {
+    height: 128px;
+}
+
+.cardPopulaire img {
+    height: inherit;
+    border-radius: 10px 0 0 10px;
+    width: 100%;
+    object-fit: cover;
+    margin: 0;
+}
+
+.cardPopulaire {
+    height: 130px;
+    margin-top: 15px;
+
+}
+
+.cardPopulaire h4 {
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.cardPopulaireInfo {
+    padding-right: 30px;
+}
+
+.cardPopulaireInfo p {
+    padding-bottom: 30px;
+}
+
+.cardPopulaireInfo i {
+    font-size: 12px;
+}
+
+.hebergements {
+    margin-right: 0;
+    height: 1395px;
+    background-color: white;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+
+#hebergementsTitre {
+    margin-left: 10px;
+}
+
+.hebergements h3 {
+    font-size: 23px;
+    margin-left: -2px;
+}
+
+.cardHebergementList {
+    display: block;
+    height: 1255px;
+}
+
+
+.cardHebergement {
+    height: 187px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 0;
+    width: auto;
+}
+
+.cardHebergement img {
+    margin-left: 10px;
+}
+
+.hebergements a {
+    font-size: 25px;
+    margin-bottom: 50px;
+    margin-left: -10px;
+}
+
+#afficherPlus {
+    font-size: 19px;
+}
+
+.cardHebergement h4 {
+    font-size: 17px;
+    margin-bottom: 0;
+}
+
+.cardHebergement p {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.cardHebergement i {
+    font-size: 12px;
+}
+
+/*---------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------*/
+/*---------------------------------------ACTIVITES------------------------------------------------------------*/
+#sectionActivite {
+    flex: 1;
+
+    padding: 20px;
+    padding-top: 0;
+
+    margin-top: 0;
+}
+
+#activitesAMarseille {
+    font-size: 22px;
+}
+
+.activites {
+    display: block;
+    height: 1220px;
+    margin-top: 27px;
+}
+
+.grandeImage {
+    height: 250px;
+    width: auto;
+    margin-bottom: 20px;
+    margin-right: 0;
+}
+
+
+
+.cardActivite,
+.cardActivite2,
+.cardActivite3,
+.doublecardActivite {
+    height: 190px;
+    width: auto;
+    border-radius: 20px;
+}
+
+.imgActivite,
+.imgActivite2,
+.imgActivite3,
+.doubleimgActivite {
+    height: 135px;
+    width: auto;
+}
+
+.imgActivite img,
+.imgActivite2 img,
+.imgActivite3 img,
+.doubleimgActivite img {
+    height: inherit;
+    border-radius: 20px 20px 0 0;
+}
+
+.cardActiviteInfo h4 {
+    font-size: 16px;
+    padding-left: 20px;
+}
+
+.doubleImage .cardActiviteInfo {
+    padding-left: 0px;
+    height: 55px;
+}
+
+.douobleImagePasMemeTaille,
+.doubleImage {
+    width: auto;
+    margin-right: 0;
+    margin-left: 0;
+    height: 400px;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+.doubleImagePasMemeTaille1,
+.doubleImage1 {
+    margin-bottom: 20px;
+}
+
+/*---------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------*/
+/*---------------------------------------FOOTER------------------------------------------------------------*/
+
+footer {
+    background-color: #f2f2f2;
+    padding-top: 15px;
+    height: 450px;
+}
+
+.divFooter {
+    display: block;
+    margin-top: 0;
+}
+
+.divFooter h4 {
+    font-size: 20px;
+}
+
+.divFooter p {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.linksA {
+    margin-top: 40px;
+}
+
+.linksA,
+.linksB,
+.linksC {
+    margin-bottom: 40px;
+    width: 300px;
+    margin-left: 20px;
+
+}
+
+.linksA h4,
+.linksB h4,
+.linksC h4 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,194 @@
+/*--------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------*/
+/*---------------------------------------------ENTETE------------------------------------------------*/
+
+#logo img{
+    width: 100%;
+}
+
+/*--------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------*/
+/*--------------------------------------------NAVIGATION---------------------------------------------*/
+
+/*______________TITRE_______________*/
+#navBar h3 {
+    font-size: 35px;
+}
+
+/*______________PHRASE_______________*/
+#navBar p {
+    font-size: 20px;
+}
+
+/*______________ZONE DE RECHERCHE_______________*/
+
+/*______________DIV ICONE_______________*/
+
+/*______________BARRE DE RECHERCHE_______________*/
+.barreDeRecherche {
+    border: 0.25px solid #f2f2f2;
+    height: 47px;
+    width: 250px;
+}
+
+/*______________BOUTON DE  RECHERCH_______________*/
+
+/*______________DIV FILTRE_______________*/
+
+/*______________TEXTE FILTRE_______________*/
+.textFilter {
+    font-size: 25px;
+}
+
+/*______________ZONE FILTRES_______________*/
+
+
+/*______________DIV INFO TEXTE_______________*/
+
+/*--------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------*/
+/*---------------------------------------HEBERGEMENTS POPULAIRES-------------------------------------*/
+/*______________hebergementPopulaire_______________*/
+
+.hebergementPopulaire {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 1390px;
+    margin-bottom: 20px;
+}
+
+/*______________hebergements_______________*/
+.hebergements {
+    margin-right: 0;
+    height: 640px;
+    margin-bottom: 40px;
+}
+
+#afficherPlus {
+    font-size: 19px;
+}
+
+/*______________hebergementsTitre_______________*/
+
+
+/*______________cardHebergementList_______________*/
+
+
+/*______________cardHebergement_______________*/
+
+.cardHebergement {
+    height: 200px;
+    width: 30%;
+}
+
+
+.cardHebergement img {
+    height: 115px;
+}
+
+
+/*______________hebergementCardInfo______________*/
+.hebergementCardInfo h4 {
+    font-size: 15px;
+}
+
+.hebergementCardInfo p {
+    font-size: 10px;
+}
+
+.hebergementCardInfo i {
+    font-size: 15px;
+}
+
+/*______________populaires______________*/
+
+/*______________populaires______________*/
+
+
+/*______________titreEtoile______________*/
+/*______________alignleft______________*/
+
+.titreEtoile> :first-child {
+    font-size: 22px;
+}
+
+/*______________ETOILENOIRE_______________*/
+
+
+/*______________POPULAIRES_______________*/
+
+/*______________cardPopulaire_______________*/
+.cardPopulaire {
+    padding: 5px;
+    width: auto;
+}
+
+
+
+.doubleImage .cardActiviteInfo {
+    height: auto;
+}
+
+/*______________cardPopulaireInfo_______________*/
+
+/*_______________cardPopulaireInfo h4______________*/
+
+/*______________cardPopulaireInfo p_______________*/
+
+/*______________cardPopulaireInfo i_______________*/
+
+.populaireContent {
+    width: auto;
+    height: auto;
+}
+
+.populaires {
+    margin-left: 0;
+    border-radius: 10px;
+    height: 680px;
+    margin-bottom: 20px;
+}
+
+.cardPopulaireInfo i {
+    font-size: 10px;
+}
+
+.cardPopulaire i {
+    margin-top: 0px;
+}
+
+
+/*--------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------ACTIVITES-------------------------------------------*/
+
+.activites {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+.grandeImage {
+    width: 45%;
+    margin-right: 6%;
+    margin-bottom: 5%;
+
+}
+
+.douobleImagePasMemeTaille {
+    width: 45%;
+    margin-right: 0;
+    margin-bottom: 5%;
+
+}
+
+.doubleImage {
+    width: 45%;
+    margin-right: 0;
+    margin-bottom: 5%;
+}
+
+.linksB {
+    margin-left: 20px;
+}
